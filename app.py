@@ -18,7 +18,7 @@ def index():
 
 
 @app.route('/networks/<networkId>/cameras/<camera_serial>/snapshot', methods=['GET'])
-def snapshot(networkId="L_668784544664521658", camera_serial="Q2EV-EVZJ-GQSS"):
+def snapshot(networkId="Rosinski", camera_serial="Q2EV-EVZJ-GQSS"):
 
     # get current timestamp
     utc_offset_sec = time.altzone if time.localtime().tm_isdst else time.timezone
