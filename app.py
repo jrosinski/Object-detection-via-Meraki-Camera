@@ -7,9 +7,9 @@ from meraki.util import init_meraki, get_snapshot
 app = Flask(__name__, static_url_path='/static')
 CORS(app)
 
-MERAKI_API_KEY = ""
+MERAKI_API_KEY = "8c16d9089561552801665d9fef80b0107cf93744"
 
-NETWORK_ID = "L_668784544664521658"
+NETWORK_ID = "Rosinski"
 
 
 @app.route("/")
