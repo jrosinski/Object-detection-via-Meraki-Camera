@@ -10,7 +10,7 @@ let image_el;
 // meraki camera config
 let network_id = "Rosinski";
 
-let camera_serial = "Q2JV-ZDF5-JKLU";
+let camera_serial = "Q2GV-S7XJ-MDPP";
 
 async function setup() {
     createCanvas(width, height);
